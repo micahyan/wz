@@ -5,7 +5,7 @@ class update {
 	var $http;
 
 	function __construct() {
-		$this->update_url = 'http://update.v9.phpcms.cn/index.php';
+		//$this->update_url = 'http://update.v9.phpcms.cn/index.php';
 		$this->http = pc_base::load_sys_class('http','',1);
 		$this->uuid = $this->check_uuid();
 	}

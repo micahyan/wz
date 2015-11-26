@@ -1,16 +1,15 @@
 <?php
 return array (
-  'admin_email' => 'phpcms@phpcms.cn',
-  'adminaccessip' => '0',
+  'admin_email' => 'yzsqsz@163.com',
   'maxloginfailedtimes' => '8',
-  'maxiplockedtime' => '15',
   'minrefreshtime' => '2',
   'mail_type' => '1',
   'mail_server' => 'smtp.qq.com',
   'mail_port' => '25',
-  'mail_user' => 'phpcms.cn@foxmail.com',
+  'category_ajax' => '0',
+  'mail_user' => 'yzsqsz@163.com',
   'mail_auth' => '1',
-  'mail_from' => 'phpcms.cn@foxmail.com',
+  'mail_from' => 'yzsqsz@163.com',
   'mail_password' => '',
   'errorlog_size' => '20',
 );

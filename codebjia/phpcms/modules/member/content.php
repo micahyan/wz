@@ -16,6 +16,7 @@ class content extends foreground {
 	}
 	public function publish() {
 		$memberinfo = $this->memberinfo;
+
 		$grouplist = getcache('grouplist');
 		$priv_db = pc_base::load_model('category_priv_model'); //加载栏目权限表数据模型
 		

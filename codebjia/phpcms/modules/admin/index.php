@@ -292,7 +292,7 @@ class index extends admin {
 			$this->site_db = pc_base::load_model('site_model');
 			$uuid_arr = $this->site_db->get_one(array('siteid'=>1), 'uuid');
 			$uuid = $uuid_arr['uuid'];
-			$snda_check_url = "http://open.sdo.com/phpcms?cmsid=".$uuid."&sitedomain=".$_SERVER['SERVER_NAME'];
+			//$snda_check_url = "http://open.sdo.com/phpcms?cmsid=".$uuid."&sitedomain=".$_SERVER['SERVER_NAME'];
 
 			$snda_res_json = @file_get_contents($snda_check_url);
 			$snda_res = json_decode($snda_res_json, 1);

@@ -20,8 +20,7 @@ if(isset($show_dialog)) {
 	<link rel="alternate stylesheet" type="text/css" href="<?php echo CSS_PATH?>style/<?php echo SYS_STYLE;?>-styles3.css" title="styles3" media="screen" />
     <link rel="alternate stylesheet" type="text/css" href="<?php echo CSS_PATH?>style/<?php echo SYS_STYLE;?>-styles4.css" title="styles4" media="screen" />
 <script language="javascript" type="text/javascript" src="<?php echo JS_PATH?>jquery.min.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo JS_PATH?>admin_common.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo JS_PATH?>styleswitch.js"></script>
+
 <?php if(isset($show_validator)) { ?>
 <script language="javascript" type="text/javascript" src="<?php echo JS_PATH?>formvalidator.js" charset="UTF-8"></script>
 <script language="javascript" type="text/javascript" src="<?php echo JS_PATH?>formvalidatorregex.js" charset="UTF-8"></script>

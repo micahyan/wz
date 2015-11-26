@@ -289,20 +289,6 @@ return array (
     'installdate' => '2010-09-01',
     'updatedate' => '2010-09-06',
   ),
-  'video' => 
-  array (
-    'module' => 'video',
-    'name' => '视频库',
-    'url' => '',
-    'iscore' => '0',
-    'version' => '1.0',
-    'description' => '',
-    'setting' => '',
-    'listorder' => '0',
-    'disabled' => '0',
-    'installdate' => '2012-09-28',
-    'updatedate' => '2012-09-28',
-  ),
   'announce' => 
   array (
     'module' => 'announce',
