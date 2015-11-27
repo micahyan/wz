@@ -1,6 +1,6 @@
 <?php
 return array(
-'pc_version' => 'V9.5.10',	//phpcms 版本号
-'pc_release' => '20150812',	//phpcms 更新日期
+'pc_version' => '1.0.1',	//码农百家 版本号
+'pc_release' => '2015/11/27',	//码农百家 更新日期
 );
 ?>

@@ -63,7 +63,7 @@ body fieldset.blue legend{padding:3px 8px;font-weight:700;color:#347add; backgro
 	.tab-web-panel li a:hover,.tab-web-panel li.on a{ background-color:#d5e5f6;background-position:50px -52px;}
 	
 .header .col-auto{height:80px}
-.header .log{padding:16px 0 0 6px; height:20px}
+.header .log{padding:16px 50px 0 6px; height:20px; text-align: right;}
 .header .tab_style{padding:16px 14px 0 0}
 #Skin{padding:14px 0 0 0; position:relative; z-index:1000; height:11px; font-size:0;}
 #Skin li {cursor:pointer;height:11px;width:14px;_overflow:hidden;background:url(../images/admin_img/skinbt.png) no-repeat;}

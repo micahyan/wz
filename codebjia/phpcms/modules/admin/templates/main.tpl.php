@@ -2,7 +2,7 @@
 defined('IN_ADMIN') or exit('No permission resources.');
 include PC_PATH.'modules'.DIRECTORY_SEPARATOR.'admin'.DIRECTORY_SEPARATOR.'templates'.DIRECTORY_SEPARATOR.'header.tpl.php';
 ?>
-<div id="main_frameid" class="pad-10 display" style="_margin-right:-12px;_width:98.9%;">
+<div id="main_frameid" class="pad-10 display" style="_margin-right:-12px;_width:98.9%; display: block;">
 <script type="text/javascript">
 $(function(){if ($.browser.msie && parseInt($.browser.version) < 7) $('#browserVersionAlert').show();}); 
 </script>
@@ -81,7 +81,7 @@ function addtext(data) {
 <div class="col-2 col-auto">
 	<h6><?php echo L('main_sysinfo')?></h6>
 	<div class="content">
-	<?php echo L('main_version')?>Phpcms <?php echo PC_VERSION?>  Release <?php echo PC_RELEASE?> [<a href="http://download.phpcms.cn/v9/" target="_blank"><?php echo L('main_latest_version')?></a>]<br />
+	<?php echo L('main_version')?>码农百家 <?php echo PC_VERSION?> <?php echo PC_RELEASE?><br />
 	<?php echo L('main_os')?><?php echo $sysinfo['os']?> <br />
 	<?php echo L('main_web_server')?><?php echo $sysinfo['web_server']?> <br />
 	<?php echo L('main_sql_version')?><?php echo $sysinfo['mysqlv']?><br />
@@ -95,21 +95,10 @@ function addtext(data) {
 	<?php echo L('main_copyright')?><?php echo $product_copyright?><br />
 	<?php echo L('main_product_dev')?><?php echo $programmer;?><br />
 	<?php echo L('main_product_ui')?><?php echo $designer;?><br />
-	<?php echo L('main_product_site')?><a href="http://www.phpcms.cn/" target="_blank">http://www.phpcms.cn/</a> <br />
-	<?php echo L('main_product_bbs')?><a href="http://bbs.phpcms.cn/" target="_blank">http://bbs.phpcms.cn/</a> <br />
-	<?php echo L('main_product_qq')?>7634000 <br />
-	<?php echo L('main_product_sales')?>1561683312
+	<?php echo L('main_product_site')?><a href="http://www.mnbaijia.com/" target="_blank">http://www.mnbaijia.com/</a> <br />
 	</div>
 </div>
 
-<div class="col-2 col-auto">
-	<h6><?php echo L('main_license')?></h6>
-	<div class="content">
-	<?php echo L('main_version')?>Phpcms <?php echo PC_VERSION?>  Release <?php echo PC_RELEASE?> [<a href="http://buy.phpcms.cn" target="_blank"><?php echo L('main_support')?></a>]<br />
-	<?php echo L('main_license_type')?><span id="phpcms_license"></span> <br />
-	<?php echo L('main_serial_number')?><span id="phpcms_sn"></span> <br />
-	</div>
-</div>
-    <div class="bk10"></div>
+<div class="bk10"></div>
 </div>
 </body></html>

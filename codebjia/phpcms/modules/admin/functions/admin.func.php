@@ -29,8 +29,8 @@
 	function system_information($data) {
 		//$update = pc_base::load_sys_class('update');
 		//$notice_url = $update->notice();
-		$notice_url = '';
-		$string = base64_decode('');
-		echo $data.str_replace('NOTICE_URL',$notice_url,$string);
+		//$notice_url = '';
+		//$string = base64_decode('');
+		//echo $data.str_replace('NOTICE_URL',$notice_url,$string);
 	}
 ?>

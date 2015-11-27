@@ -1,0 +1,21 @@
+/*mnbaijia /main.css*/
+body, button, input, select, textarea { font: 12px/1.125 Arial; }
+ul, ol, li { list-style: outside none none; }
+img { border: 0px none; display: block; }
+em, i { font-style: normal; }
+a { text-decoration: none; color: rgb(85, 85, 85); }
+a:hover { text-decoration: underline; color: rgb(206, 0, 0); }
+.clear { clear: both; height: 0px; overflow: hidden; }
+.ad980 { width: 980px; margin: 0px auto; }
+.w980 { width: 980px; margin: 10px auto 0px; }
+.mt20 { margin-top: 20px; }
+.l1 { width: 750px; float: left; }
+.r1 { width: 210px; float: right; }
+.r1_1 { width: 210px; float: right; border-top: 5px solid rgb(229, 229, 229); padding-top: 6px; }
+.l2 { width: 350px; float: left; }
+.r2 { width: 380px; float: right; }
+
+/*-- header ----*/
+.header-top{width: 954px; height: 30px; line-height: 30px; background: #f8f8f9; padding: 0px 11px 0px 15px; border-bottom: 1px solid #f1f1f1; color: #cecece; margin: 10px auto 0px; }
+.header-top span { float: right; }
+

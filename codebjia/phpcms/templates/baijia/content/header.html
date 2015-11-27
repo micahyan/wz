@@ -6,8 +6,8 @@
 <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
 <meta name="keywords" content="{$SEO['keyword']}">
 <meta name="description" content="{$SEO['description']}">
-<link href="{CSS_PATH}reset.css" rel="stylesheet" type="text/css" />
-<link href="{CSS_PATH}default_blue.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH}mnbj/mnbj-main.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH}mnbj/mnbj-index.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="{JS_PATH}jquery.min.js"></script>
 <script type="text/javascript" src="{JS_PATH}jquery.sgallery.js"></script>
 <script type="text/javascript" src="{JS_PATH}search_common.js"></script>
@@ -15,21 +15,6 @@
 <body>
 <div class="body-top">
     <div class="content">
-    {pc:content  action="position" posid="9" order="id" num="10" cache="3600"}
-    		<div id="announ">
-                 <ul>
-                 {loop $data $k $v}
-                      <li><a href="{$v[url]}">{$v[title]}</a></li>
-                      {/loop}
-                 </ul>
-            </div>
-     {/pc}
-	 {php echo runhook('glogal_header')}
-<script type="text/javascript">
-$(function(){
-	startmarquee('announ',22,1,500,3000);
-})
-</script>
             <div class="login lh24 blue"><a href="{APP_PATH}index.php?m=content&c=rss&siteid={get_siteid()}" class="rss ib">rss</a><span class="rt"><script type="text/javascript">document.write('<iframe src="{APP_PATH}index.php?m=member&c=index&a=mini&forward='+encodeURIComponent(location.href)+'&siteid={get_siteid()}" allowTransparency="true"  width="500" height="24" frameborder="0" scrolling="no"></iframe>')</script></span></div>
     </div>
 </div>
