@@ -1,0 +1,47 @@
+/* http://www.wtiyan.com/  mian css */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, table, thead, tbody, tr, th, td, input, form, textarea, p { margin: 0px; padding: 0px; border-spacing: 0px; }
+html, body, a { font-size: 100%; font-family: "microsoft yahei","微软雅黑","Helvetica Neue",Arial,Helvetica,sans-serif; }
+body { padding-top: 60px; background: rgb(246, 249, 249) none repeat scroll 0% 0%; }
+img { border: 0px none; }
+li { list-style: outside none none; }
+audio, canvas, iframe, img, svg, video { vertical-align: middle; }
+a { text-decoration: none; }
+a { outline: medium none; }
+:focus { outline: 0px none; }
+.fl { float: left; }
+.fr { float: right; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.wrap { width: 1000px; height: auto; margin: 0px auto; }
+.primary-header { position: fixed; top: 0px; left: 0px; z-index: 9999; width: 100%; height: 57px; border-top: 3px solid #37cb58; background-color: rgb(255, 255, 255); color: rgb(78, 92, 70); transition: all 0.5s ease 0s; opacity: 1; visibility: visible; box-shadow: 2px 0px 14px rgba(0, 0, 0, 0.2); }
+.primary-header a { color: rgb(78, 92, 70); text-decoration: none; }
+.primary-header .site-logo { margin-top: 14px; margin-left: 60px; }
+.primary-header .site-logo .md-logo { width: 92px; height: 30px; }
+.primary-header .primary-nav { margin-left: 132px; }
+.primary-header .primary-nav .site-nav { padding-left: 40px; }
+.primary-header .primary-nav .site-nav li { float: left; }
+.primary-header .primary-nav .site-nav li a { display: block; padding: 0px 20px; height: 57px; line-height: 57px; font-weight: bold; font-size: 14px; font-family: "微软雅黑"; }
+.primary-header .primary-nav .site-nav li a:hover, .primary-header .primary-nav .site-nav li a.cur { color: rgb(55, 203, 88); }
+.primary-header .primary-nav .header-user .no-login { padding-right: 40px; }
+.primary-header .primary-nav .header-user .no-login li { float: left; }
+.primary-header .primary-nav .header-user .no-login li.no-login-border { width: 1px; height: 14px; background-color: rgb(122, 133, 116); margin-top: 22px; }
+.primary-header .primary-nav .header-user .no-login li a { display: block; padding: 0px 20px; height: 57px; line-height: 57px; font-weight: bold; font-size: 14px; }
+.primary-header .primary-nav .header-user .no-login li a:hover { color: rgb(55, 203, 88); }
+.primary-footer { color: rgb(100, 112, 93); font-size: 12px; background: transparent url(../images/footbg.jpg) repeat scroll 0px 10px ! important; padding-bottom: 20px; border-top: 4px solid rgb(55, 203, 88); box-shadow: 0px 4px 23px 1px rgba(0, 0, 0, 0.2); }
+.primary-footer .container { width: 940px; margin: 0px auto; }
+.primary-footer a { color: rgb(100, 112, 93); text-decoration: none; }
+.primary-footer .outher .copyright i.footMobile { width: 8px; height: 12px; float: left; margin: 5px 3px 0px 0px; background: transparent url(../images/icon-map.png) no-repeat scroll -158px -305px; }
+.primary-footer .outher .copyright a.moveVersion:hover i.footMobile { background-position: -238px -305px; }
+.primary-footer .outher { padding-top: 15px; margin-top: 25px; border-top: 2px dashed rgb(55, 203, 88); background: transparent url(../images/footer-logo.png) no-repeat scroll right 20px; }
+.primary-footer .outher p { margin-top: 5px; }
+.primary-footer .outher p.icp { height: 12px; line-height: 12px; margin-top: 7px; }
+.primary-footer .outher p.icp a { display: inline-block; height: 12px; line-height: 12px; }
+.primary-footer .outher p a.icpLink { padding-right: 15px; margin-right: 15px; border-right: 1px solid rgb(167, 173, 163); }
+.primary-footer .outher p a.eyasPlan { padding-left: 15px; margin-left: 15px; border-left: 1px solid rgb(167, 173, 163); }
+.primary-footer .outher .copyright { font-weight: bold; }
+.primary-footer .outher .copyright .moveVersion { border-bottom: 1px solid rgb(167, 173, 163); display: inline-block; margin-left: 8px; font-weight: bold; }
+.primary-footer .outher .copyright .moveVersion:hover, .primary-footer .outher .copyright .moveVersion:hover i { color: rgb(55, 203, 88); border-color: rgb(55, 203, 88); }
+.primary-footer .outher .copyright i { font-size: 16px; margin-right: 5px; }
+.primary-footer section.setOn .outher { padding-top: 0px; border-top: medium none; background-position: right 2px; }
+*::-moz-selection { background: rgb(55, 203, 88) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="" class="no-js">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>{php if(isset($title)) $_W['page']['title'] = $title}{if !empty($_W['page']['title'])}{$_W['page']['title']} - {/if}{if empty($_W['page']['copyright']['sitename'])}{if IMS_FAMILY != 'x'}微体验微信管理系统-wtiyan.com{/if}{else}{$_W['page']['copyright']['sitename']}{/if}</title>
+	<meta name="keywords" content="{if empty($_W['page']['copyright']['keywords'])}{if IMS_FAMILY != 'x'}微体验,微信,微信公众平台,微信管理公众平台{/if}{else}{$_W['page']['copyright']['keywords']}{/if}" />
+	<meta name="description" content="{if empty($_W['page']['copyright']['description'])}{if IMS_FAMILY != 'x'}微体验,微信,微信公众平台,微信管理公众平台。{/if}{else}{$_W['page']['copyright']['description']}{/if}" />
+	<link rel="canonical" href="http://www.wtiyan.com/">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<link rel="stylesheet" type="text/css" href="./resource/wtiyan/css/wty-main.css">
+	<link rel="stylesheet" type="text/css" href="./resource/wtiyan/css/wty-index.css">
+	<script src="./resource/wtiyan/js/jquery.min.1.11.js"></script>
+</head>
+<body>
+<!-- wtiyan header begin -->
+<header class="primary-header">
+	<div class="site-logo fl">
+		<a href="http://www.wtiyan.com/"><img src="./resource/wtiyan/images/logo.png" alt="logo" class="md-logo"></a>
+	</div>
+	<nav class="primary-nav">
+		<ul class="site-nav fl">
+			<li><a href="#" class="cur">首页</a></li>
+			<li><a href="#">功能介绍</a></li>
+			<li><a href="#">客户案例</a></li>
+			<li><a href="#">使用手册</a></li>
+		</ul>
+		<div class="header-user fr">
+			<input id="userid" value="" type="hidden">
+			<ul class="no-login fl">
+				<li><a href="{url 'user/login'}">登录</a></li>
+				<li class="no-login-border"></li>
+				<li><a href="{url 'user/register'}">注册</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+<!-- wtiyan header end -->
+
+
+<div class="main">
+
+</div>
+
+<!-- wtiyan footer begin -->
+<footer class="primary-footer">
+	<section class="container setOn">
+		<div class="outher setOn">
+			<p class="copyright">Copyright&nbsp;©&nbsp;2015&nbsp;wtiyan&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;微体验&nbsp;</p>
+			<p class="icp">
+				<a class="icpLink" href="http://www.miitbeian.gov.cn" target="_top">苏ICP备14014993-3号</a>
+				友情链接：&nbsp;&nbsp;<a href="http://www.ittidy.com/" target="_blank">IT技术整理</a>&nbsp;&nbsp;&nbsp;
+				<a href="http://weixin.qq.com/" target="_blank">微信公众平台</a>&nbsp;&nbsp;&nbsp;
+				<a href="http://www.weisoba.com/" target="_blank">微搜吧</a>
+			</p>
+		</div>
+	</section>
+</footer>
+<div style="display: none;">
+	<span id="cnzz_stat_icon_1254836236"><a href="#" target="_top" title="站长统计">站长统计</a></span>
+</div>
+<!-- wtiyan footer end -->
+
+<script>
+	$(function(){
+		$(".ewm").hover(function(){
+			$(".Eyj",this).stop().animate({"height":"145px"},300);
+		},function(){
+			$(".Eyj",this).stop().animate({"height":"0"},300)
+		})
+	})
+</script>
+<link href="./resource/wtiyan/css/wty-kf.css" rel="stylesheet">
+<ul class="Zxs">
+	<a onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=956428521&site=qq&menu=yes', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');">
+		<li>
+			<div class="Dbs"><img src="./resource/wtiyan/images/sqzx.png" alt=""></div>
+			<div class="Fnts">售前咨询</div></li></a>
+	<a onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=956428521&site=qq&menu=yes', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');">
+		<li>
+			<div class="Dbs">
+				<img src="./resource/wtiyan/images/sazx.png" alt=""></div>
+			<div class="Fnts">售后咨询</div></li></a>
+	<!--<a>
+		<li  class="ewm"><div class="Dbs"><img src="./resource/wtiyan/images/ewm.png" alt=""></div>
+			<div class="Fnts">二维码</div>
+			<div class="Eyj"><img src="./resource/wtiyan/images/qrcode.png" alt="在线客服"></div>
+		</li>
+	</a>-->
+	<a href="javascript:scroll(0,0)"><li><div class="Dbs"><img src="./resource/wtiyan/images/db5.png" alt=""></div>
+		<div class="Fnts">返回顶部</div></li></a>
+</ul>
+<!--在线客服代码-->
+</body>
+</html>
